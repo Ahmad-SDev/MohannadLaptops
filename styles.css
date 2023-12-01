@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    
+}
+.homebody
+{
+    background: url('bkimage/bk.jpg') center/cover no-repeat; /* Updated */
+}
+
+.center-header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 20em;
+    background: non;
+    color: white;
+    overflow: hidden; /* Prevent content overflowing */
+    width: 100%;
+    height: auto;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    margin: 20px;
+    width: 250px; /* Set a fixed width for the product container */
+}
+
+.product img {
+    width: 100%;
+    height: 100%; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-number {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product img:hover {
+    transform: scale(1.3);
+}
+
+.green-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, a.green-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, a.green-button:hover {
+    background-color: #45a049;
+}
+
+/* Remove default hyperlink styles */
+nav a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* ... (Rest of the styles) */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: auto;
+    overflow: hidden; /* Prevent content overflowing */
+}
+
+/* Add the following styles for modern buttons */
+
+a.green-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.green-button:hover {
+    background-color: #45a049;
+}
+
+/* Adjust the main content to grow and fill the remaining space */
+main {
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: auto;
+}
+/* Modern footer style */
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #4CAF50;
+}
+
+.product-container ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-container ul li
+{
+    margin-right: 20px;
+}
